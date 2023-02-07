@@ -1,0 +1,19 @@
+//basic program oops
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+class Amphibians
+{
+   public:
+   string Amphi_name;
+   void displayname()
+   {cout<< "Amphibian Name is:" << Amphi_name;};
+};
+int main() {
+ Amphibians obj1,obj2;
+ obj1.Amphi_name = "Salamander\n";
+ obj2.Amphi_name = "Frog";
+ obj1.displayname();
+ obj2.displayname();
+    return 0;
+}
